@@ -19,7 +19,7 @@ const db = mysql.createConnection({
 // Sending data from client
 app.use(express.json());
 app.use(cors({
-    origin: "https://hadiahpendampingan.netlify.app/",
+    origin: "https://hadiahpendampingan.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
